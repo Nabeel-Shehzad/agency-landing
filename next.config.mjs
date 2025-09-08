@@ -9,6 +9,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  output: 'standalone',   // 👈 important: makes dynamic build
 }
 
 export default nextConfig
