@@ -217,7 +217,11 @@ export default function HomePage() {
     <div className="min-h-screen bg-gradient-to-br from-violet-50/60 via-violet-100/40 to-violet-50/70 text-foreground">
       <nav className="fixed top-0 left-0 right-0 z-40 bg-violet-50/50 backdrop-blur-sm">
         <div className="flex items-center justify-between px-6 py-2">
-          <div className="font-mono text-xl font-semibold text-foreground">Lls</div>
+          <img
+            src="/logo.png"
+            alt="Lumora Labs Logo"
+            className="h-10 w-auto cursor-pointer"
+          />
           <button
             onClick={() => setShowMobileMenu(true)}
             className="p-2 text-foreground hover:text-accent transition-colors"

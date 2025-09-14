@@ -7,8 +7,12 @@ export default function CareersPage() {
     <div className="min-h-screen bg-gradient-to-br from-violet-50/60 via-violet-100/40 to-violet-50/70 text-foreground">
       <nav className="fixed top-0 left-0 right-0 z-40 bg-violet-50/50 backdrop-blur-sm">
         <div className="flex items-center justify-between px-6 py-2">
-          <a href="/" className="font-mono text-xl font-semibold text-foreground hover:text-accent transition-colors">
-            Lls
+          <a href="/" className="hover:opacity-80 transition-opacity">
+            <img
+              src="/logo.png"
+              alt="Lumora Labs Logo"
+              className="h-10 w-auto"
+            />
           </a>
           <a href="/" className="p-2 text-foreground hover:text-accent transition-colors" aria-label="Back to home">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">

@@ -47,8 +47,12 @@ export default function ProductsPage() {
       {/* Header */}
       <header className="py-8 px-8 border-b border-border">
         <div className="max-w-6xl mx-auto flex justify-between items-center">
-          <a href="/" className="font-mono text-2xl text-foreground hover:text-accent transition-colors">
-            lumoralabs
+          <a href="/" className="hover:opacity-80 transition-opacity">
+            <img
+              src="/logo.png"
+              alt="Lumora Labs Logo"
+              className="h-10 w-auto"
+            />
           </a>
           <nav className="flex gap-8 font-sans text-sm">
             <a href="/" className="text-muted-foreground hover:text-foreground transition-colors">
