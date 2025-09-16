@@ -19,9 +19,14 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Studio — Software & AI Solutions",
-  description: "Minimal software engineering studio specializing in AI agents for small businesses",
+  title: "Lumora Labs — AI Agency",
+  description: "Leading AI agency specializing in automation, chatbots, and intelligent solutions",
   generator: "v0.app",
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
 }
 
 export default function RootLayout({

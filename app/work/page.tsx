@@ -50,7 +50,7 @@ export default function WorkPage() {
             <img
               src="/logo.png"
               alt="Lumora Labs Logo"
-              className="h-10 w-auto"
+              className="h-10 w-auto cursor-pointer"
             />
           </a>
           <a href="/" className="text-muted-foreground hover:text-foreground transition-colors">
